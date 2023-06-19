@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Card Info</title>
   </head>
   <body>
@@ -90,9 +90,10 @@
       </div>
       <div class="back">
         <div class="stripe"></div>
-        <div class="form-group cvc-group"></div>
-        <label for="cvc">CVC</label>
-        <input type="tel" maxlength="3" id="cvc" required />
+        <div class="form-group cvc-group">
+          <label for="cvc">CVC</label>
+          <input class="cvc-input" type="tel" maxlength="3" id="cvc" required />
+        </div>
       </div>
     </form>
   </body>
